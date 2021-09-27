@@ -1,8 +1,13 @@
 public class GiantDog implements Drivable, Domesticatable, Tradable{
-    private int maxSpeed;
+    private int maxSpeed = 42;
+    private String name;
 
-    public GiantDog() {
-        this.maxSpeed = 42;
+    public GiantDog(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
