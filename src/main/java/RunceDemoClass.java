@@ -11,12 +11,12 @@ public class RunceDemoClass implements Tradable, Drivable{
 
     @Override
     public void upgradeSpeed() {
-        speed++;
+        this.speed++;
     }
 
     @Override
     public void downgradeSpeed() {
-        speed--;
+        this.speed--;
 
     }
 

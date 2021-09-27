@@ -96,8 +96,7 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
-                // TODO: Add Tradable objects here!
+                new RunceDemoClass()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
@@ -117,7 +116,7 @@ public class Trader {
             i++;
         }
 
-        RunceDemoClass c = new RunceDemoClass();
+
     }
 
     @Override
